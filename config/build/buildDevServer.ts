@@ -7,5 +7,6 @@ export function buildDevServer(optins: BuildOptions): DevServerConfiguration {
         port: optins.port,
         open: true,
         historyApiFallback: true,
+        hot: true,
     }
 }
